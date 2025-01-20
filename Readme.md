@@ -1,0 +1,13 @@
+# Submission 1: Proyek Pengembangan Machine Learning Pipeline
+Nama: Moh. Aflah Azzaky
+Username dicoding: aflahazzaky
+
+| | Deskripsi |
+| ----------- | ----------- |
+| Dataset | [Fake News Prediction Dataset](https://www.kaggle.com/datasets/rajatkumar30/fake-news) |
+| Masalah | Di era digital, penyebaran informasi semakin masif melalui berbagai platform seperti media sosial, portal berita, dan aplikasi perpesanan. Namun, tidak semua informasi yang beredar dapat dipercaya. Berita palsu atau fake news telah menjadi masalah serius yang dapat menyebabkan disinformasi, mempengaruhi opini publik, dan bahkan memicu konflik sosial. Identifikasi berita palsu secara manual sangat sulit karena banyaknya informasi yang beredar dan keterbatasan waktu manusia. Oleh karena itu, diperlukan sistem otomatis berbasis machine learning yang dapat membantu mendeteksi dan mengklasifikasi berita palsu dengan cepat dan akurat. Proyek ini bertujuan untuk mengembangkan model machine learning yang dapat memprediksi berita palsu berdasarkan teks berita, sehingga dapat membantu meminimalkan dampak negatif dari penyebaran berita palsu. |
+| Solusi machine learning | Pengembangan model klasifikasi yang dapat membedakan berita palsu (fake) dan berita nyata (real) menggunakan dataset teks. |
+| Metode pengolahan | Pada proyek ini, metode pengolahan data meliputi proses tokenisasi pada fitur input berupa teks dari berita. Proses ini bertujuan untuk mengubah teks menjadi representasi numerik yang sesuai, sehingga dapat dipahami dan diolah oleh model machine learning dengan lebih efektif. |
+| Arsitektur model | Model yang dikembangkan menggunakan layer TextVectorization sebagai komponen utama untuk memproses input berupa string menjadi representasi numerik. Selanjutnya, digunakan layer Embedding yang berfungsi untuk mempelajari hubungan semantik atau kedekatan antar kata. Hal ini bertujuan untuk mengidentifikasi karakteristik setiap kata, seperti apakah kata tersebut memiliki konotasi negatif atau positif. Selain itu, model ini dilengkapi dengan dua hidden layer untuk menangkap pola non-linear dalam data, serta satu output layer yang bertugas menghasilkan prediksi akhir. |
+| Metrik evaluasi | Metrik evaluasi yang digunakan pada model meliputi Binary Accuracy, True Positive, False Positive, True Negative, dan False Negative. Metrik-metrik ini dipilih untuk mengevaluasi performa model dalam menentukan klasifikasi secara akurat. |
+| Performa model | Model yang dikembangkan menunjukkan performa yang sangat baik dalam melakukan prediksi terhadap teks berita yang diberikan. Berdasarkan hasil pelatihan, model mampu mencapai nilai binary accuracy dan val_binary accuracy di kisaran 98%. |
